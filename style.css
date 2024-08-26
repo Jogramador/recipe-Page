@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+:root {
+  font-size: 62.5%;
+
+  --White: hsl(0, 0%, 100%);
+  --Stone100: hsl(30, 54%, 90%);
+  --Stone150: hsl(30, 18%, 87%);
+  --Stone600: hsl(30, 10%, 34%);
+  --Stone900: hsl(24, 5%, 18%);
+  --Brown800: hsl(14, 45%, 36%);
+  --Rose800: hsl(332, 51%, 32%);
+  --Rose50: hsl(330, 100%, 98%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+img {
+  max-width: 100%;
+}
+
+h1,
+h2 {
+  font-family: "Young Serif", system-ui;
+  font-weight: 400;
+  font-size: 2.8rem;
+  color:var(--Brown800);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-optical-sizing: auto;
+  font-size: 1.6rem;
+
+  background-color: var(--Stone100);
+  color: var(--Stone600);
+}
+
+.container {
+  background-color: var(--White);
+  border-radius: 2rem;
+  padding: 4rem;
+  width: 73.8rem;
+  height: auto;
+  margin: 8rem auto;
+}
+
+.header img {
+  height: 30rem;
+  border-radius: 1.5rem;
+}
+.header h1{
+  font-size: 4rem;
+  color: var(--Stone900);
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.header p{
+font-weight: 500;
+font-size: 1.6rem;
+}
+
+.header div{
+  background-color: var(--Rose50);
+  height: auto;
+  width: 100%;
+  border-radius: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-left: 2.8rem;
+  padding-top: 3.2rem;
+  padding-bottom: 3rem;
+  color: var(--Rose800);
+}
+.header div h2{
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.header div ul{
+  padding-left: 2.3rem;
+  list-style: square; 
+}
+.header div li{
+  padding-left: 2rem;
+  padding-top: 1.5rem;
+}
+
+.header div p{
+  color: var(--Stone600);
+}
+
+/*------------Ingredients-----------*/
+.ingredients{
+  border-bottom: .1rem solid var(--Stone150);
+  margin-bottom: 2rem;
+}
+.ingredients ul{
+  padding-left: 2rem;
+  color: var(--Brown800);
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  list-style: square; 
+}
+.ingredients ul li{
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.ingredients ul li p{
+  color: var(--Stone600);
+}
+
+/*------------Instructions-----------*/
+.instructions{
+  border-bottom: .1rem solid var(--Stone150);
+  margin-bottom: 2rem;
+}
+.instructions ol{
+  padding-left: 2rem;
+  color: var(--Brown800);
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  font-weight: 700; 
+}
+.instructions ol li{
+  padding-left: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.instructions ol li p{
+  color: var(--Stone600);
+  font-weight: 400;
+}
+
+/*------------Nutrition-----------*/
+.nutrition h2{
+  margin-bottom: 2rem;
+}
+
+.nutrition ul{
+  margin-top: 2rem;
+  list-style: none;
+}
+
+.nutrition li:last-child{
+  border-bottom: none;
+}
+
+.nutrition ul li{
+  display: flex;
+  align-items: center;
+  padding-left: 3rem;
+  border-bottom: .1rem solid var(--Stone150);
+  padding-block: 1rem;
+}
+
+.nutrition h3{
+  width: 50%;
+  font-weight: 400;
+}
+
+.nutrition span{
+  font-weight: 700;
+  color: var(--Rose800);
+}
+
+
+@media screen and (max-width:565px) {
+ 
+  .container {
+    background-color: var(--Stone900);
+    
+    /* padding: 4rem; */
+    width: 100vw;
+    height: auto;
+  }
+  
+}
