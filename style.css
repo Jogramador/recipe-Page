@@ -48,7 +48,6 @@ body {
 .container {
   background-color: var(--White);
   border-radius: 2rem;
-  /* padding: 4rem; */
   width: 73.8rem;
   height: auto;
   margin: 8rem auto;
