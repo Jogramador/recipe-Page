@@ -28,7 +28,7 @@ h2 {
   font-family: "Young Serif", system-ui;
   font-weight: 400;
   font-size: 2.8rem;
-  color:var(--Brown800);
+  color: var(--Brown800);
 }
 
 body {
@@ -48,29 +48,37 @@ body {
 .container {
   background-color: var(--White);
   border-radius: 2rem;
-  padding: 4rem;
+  /* padding: 4rem; */
   width: 73.8rem;
   height: auto;
   margin: 8rem auto;
 }
 
-.header img {
+.banner-Image {
+  padding: 4rem;
+}
+
+.banner-Image img {
   height: 30rem;
   border-radius: 1.5rem;
 }
-.header h1{
+.content {
+  padding: 4rem;
+}
+
+.header h1 {
   font-size: 4rem;
   color: var(--Stone900);
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
 
-.header p{
-font-weight: 500;
-font-size: 1.6rem;
+.header p {
+  font-weight: 500;
+  font-size: 1.6rem;
 }
 
-.header div{
+.header div {
   background-color: var(--Rose50);
   height: auto;
   width: 100%;
@@ -82,108 +90,114 @@ font-size: 1.6rem;
   padding-bottom: 3rem;
   color: var(--Rose800);
 }
-.header div h2{
+.header div h2 {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 2rem;
 }
-.header div ul{
+.header div ul {
   padding-left: 2.3rem;
-  list-style: square; 
+  list-style: square;
 }
-.header div li{
+.header div li {
   padding-left: 2rem;
   padding-top: 1.5rem;
 }
 
-.header div p{
+.header div p {
   color: var(--Stone600);
 }
 
 /*------------Ingredients-----------*/
-.ingredients{
-  border-bottom: .1rem solid var(--Stone150);
+.ingredients {
+  border-bottom: 0.1rem solid var(--Stone150);
   margin-bottom: 2rem;
 }
-.ingredients ul{
+.ingredients ul {
   padding-left: 2rem;
   color: var(--Brown800);
   margin-top: 2rem;
   margin-bottom: 3rem;
-  list-style: square; 
+  list-style: square;
 }
-.ingredients ul li{
+.ingredients ul li {
   padding-left: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
-.ingredients ul li p{
+.ingredients ul li p {
   color: var(--Stone600);
 }
 
 /*------------Instructions-----------*/
-.instructions{
-  border-bottom: .1rem solid var(--Stone150);
+.instructions {
+  border-bottom: 0.1rem solid var(--Stone150);
   margin-bottom: 2rem;
 }
-.instructions ol{
+.instructions ol {
   padding-left: 2rem;
   color: var(--Brown800);
   margin-top: 2rem;
   margin-bottom: 3rem;
-  font-weight: 700; 
+  font-weight: 700;
 }
-.instructions ol li{
+.instructions ol li {
   padding-left: 1.5rem;
   margin-bottom: 2rem;
 }
 
-.instructions ol li p{
+.instructions ol li p {
   color: var(--Stone600);
   font-weight: 400;
 }
 
 /*------------Nutrition-----------*/
-.nutrition h2{
+.nutrition h2 {
   margin-bottom: 2rem;
 }
 
-.nutrition ul{
+.nutrition ul {
   margin-top: 2rem;
   list-style: none;
 }
 
-.nutrition li:last-child{
+.nutrition li:last-child {
   border-bottom: none;
 }
 
-.nutrition ul li{
+.nutrition ul li {
   display: flex;
   align-items: center;
   padding-left: 3rem;
-  border-bottom: .1rem solid var(--Stone150);
+  border-bottom: 0.1rem solid var(--Stone150);
   padding-block: 1rem;
 }
 
-.nutrition h3{
+.nutrition h3 {
   width: 50%;
   font-weight: 400;
 }
 
-.nutrition span{
+.nutrition span {
   font-weight: 700;
   color: var(--Rose800);
 }
 
-
-@media screen and (max-width:565px) {
- 
+@media screen and (max-width: 565px) {
   .container {
-    background-color: var(--Stone900);
-    
+    background-color: var(--White);
+    border-radius: 2rem;
     /* padding: 4rem; */
-    width: 100vw;
+    width: 73.8rem;
     height: auto;
+    margin: 0 auto;
   }
-  
+
+  .banner-Image {
+    padding: 0;
+  }
+  .banner-Image img {
+    height: 30rem;
+    border-radius: 0;
+  }
 }
