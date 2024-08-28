@@ -1,6 +1,6 @@
 # Recipe Page
 
-A recipe page with a minimalist and responsive design
+A recipe page with a minimalist and responsive design.
 
 ## Screenshots
 
